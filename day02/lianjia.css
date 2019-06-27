@@ -56,8 +56,7 @@ a {
 }
 
 /* 顶部导航 */
-.top_nav {
-}
+
 .top_nav > .wrapper::after {
   display: block;
   content: "";
