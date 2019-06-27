@@ -1,0 +1,46 @@
+div{
+    color: blueviolet;
+    font-size: 40px;
+}
+
+.left{
+    color: rgb(171, 230, 36);
+    font-size: 40px;
+}
+
+.right{
+    color: rgb(12, 165, 38);
+    font-size: 40px;
+}
+
+#t1{
+    color: blue
+}
+
+#t2,.right{
+    border: 1px solid #ccc
+}
+
+h1#t1{
+    background: #EDDDFF
+}
+
+.header li{
+    color: coral
+}
+
+.header>ul{
+    border: 1px solid #ccc
+}
+
+.header>ul>li>ul>li:nth-child(3){
+    background: #EDDDFF;height: 60px;
+}
+
+.header>ul>li>ul>li:hover{
+    background: #EDDDFF;height: 60px;
+}
+
+ul::after{
+    content: "hello"
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>列表</title>
+    <style>
+    .products{
+        width: 1024px;
+        background-color: beige
+    }
+    .products::after{
+        content: "";
+        display: block;
+        clear: both
+    }
+    /*(800px-4*10px)/5=196px*/
+    .products>li{
+        float: left;
+        height: 100px;
+        width: 196px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        background-color: pink
+    }
+    .products>li:nth-child(5n){
+        margin-right: 0px
+    }
+    body,ul{
+        margin: 0px;
+        padding: 0px
+    }
+    ul{
+        list-style: none
+    }
+    </style>
+</head>
+<body>
+    <ul class="products">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</body>
+</html>
